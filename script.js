@@ -1,6 +1,6 @@
 emailjs.init("k-ynC6ygh1ACVMw2V"); // ganti dengan Public Key Anda
 
-document.getElementById("contactForm").addEventListener("submit", function (e) {
+document.getElementById("contact-form").addEventListener("submit", function (e) {
   e.preventDefault(); // Mencegah reload halaman
   const formData = new FormData(e.target);
   const name = formData.get("name");

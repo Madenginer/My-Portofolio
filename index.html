@@ -213,54 +213,53 @@
         </div>
    </section>
    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <form action="script.js" method="POST" class="contact-form">
-                <div class="mb-3">
-                    <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name"
-                        required>
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email"
-                        required>
-                </div>
-                <div class="mb-3">
-                    <label for="message" class="form-label">Message</label>
-                    <textarea class="form-control" id="message" name="message" rows="5" placeholder="Write your message"
-                        required></textarea>
-                </div>
-                <div class="text-center">
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                </div>
-            </form>
-        </div>
-    </section>
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 footer-contact">
-                    <div class="social-links text-center">
-                        <a href="https://www.instagram.com/anas_abrahat11?igsh=czZ6amt0NTFpbTln"><i
-                                class="bi bi-instagram"></i></a>
-                        <a href="https://www.tiktok.com/@ersssssddd2?_t=8qeJreXzIG2&_r=1"><i
-                                class="bi bi-tiktok"></i></a>
-                        <a href="https://www.linkedin.com/in/ahmadnurshaleh-574149281/"><i
-                                class="bi bi-linkedin"></i></a>
-                        <a href="https://github.com/Madenginer"><i class="bi bi-github"></i></a>
-                    </div>
+    <div class="container">
+        <h2>Contact Me</h2>
+        <!-- Form dengan ID "contact-form" -->
+        <form id="contact-form" class="contact-form">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </div>
+        </form>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 footer-contact">
+                <div class="social-links text-center">
+                    <a href="https://www.instagram.com/anas_abrahat11"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@ersssssddd2"><i class="bi bi-tiktok"></i></a>
+                    <a href="https://www.linkedin.com/in/ahmadnurshaleh-574149281/"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://github.com/Madenginer"><i class="bi bi-github"></i></a>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 Ahmad Nur Shaleh.</p>
-            </div>
         </div>
-    </footer>
-    <script src="bootstrap/js/bootstrap.bundle.min.js"></script> <!-- Script Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script> <!-- Script EmailJS -->
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!-- Script SweetAlert -->
-    <script src="script.js"></script> <!-- Script untuk fungsi EmailJS dan popup --> 
+        <div class="footer-bottom">
+            <p>&copy; 2024 Ahmad Nur Shaleh.</p>
+        </div>
+    </div>
+</footer>
+<!-- Bootstrap JS -->
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- EmailJS Script -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<!-- SweetAlert Script -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<!-- Script untuk fungsi EmailJS dan popup -->
+<script src="script.js"></script>
 </body>
 
 </html>
