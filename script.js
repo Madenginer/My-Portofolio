@@ -1,4 +1,4 @@
-emailjs.init("k-ynC6ygh1ACVMw2V"); // ganti dengan Public Key Anda
+emailjs.init("zMA09C06zqsbvYkx0"); // ganti dengan Public Key Anda
 
 document.getElementById("contact-form").addEventListener("submit", function (e) {
   e.preventDefault(); // Mencegah reload halaman
